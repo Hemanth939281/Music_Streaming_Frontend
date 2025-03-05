@@ -5,12 +5,12 @@ import App from './App.jsx'
 import { Provider } from "react-redux";
 import store from './redux/store.js';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Login from './components/login.jsx';
+import Login from './components/Login.jsx';
 import Signup from './components/Signup.jsx';
 import ProtectedRoute from './components/ProtectedRoute.jsx';
 import UploadSongForm from './components/UploadSongForm.jsx';
 import SongList from './components/SongList.jsx';
-import Home from './components/home.jsx';
+import Home from './components/Home.jsx';
 
 const router = createBrowserRouter([{
   path: '/',
