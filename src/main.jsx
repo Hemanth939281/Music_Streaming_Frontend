@@ -11,7 +11,6 @@ import ProtectedRoute from './components/ProtectedRoute.jsx';
 import UploadSongForm from './components/UploadSongForm.jsx';
 import SongList from './components/SongList.jsx';
 import Home from './components/Home.jsx';
-
 const router = createBrowserRouter([{
   path: '/',
   element: <App/>,

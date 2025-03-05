@@ -38,6 +38,7 @@ const Signup = () => {
     
             dispatch(setUser({ user: res.data.user, accessToken: res.data.accessToken }));
             toast.success(res.data.message);
+            e.target.reset;
             navigate("/songs");
         } catch (err) {
             setError(err.response?.data?.message || "Something went wrong");
