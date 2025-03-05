@@ -30,7 +30,7 @@ const Signup = () => {
         }
     
         try {
-            const res = await axios.post("http://localhost:5000/users/register", {
+            const res = await axios.post("https://music-streaming-backend-zs5a.onrender.com/users/register", {
                 name: nameRef.current.value,
                 email: emailRef.current.value,
                 password: passwordRef.current.value,

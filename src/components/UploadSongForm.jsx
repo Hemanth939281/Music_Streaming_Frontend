@@ -90,7 +90,7 @@ export default function UploadSongForm() {
 
     // Sending song data to backend
     try {
-      const res = await axios.post("http://localhost:5000/songs/", songData);
+      const res = await axios.post("https://music-streaming-backend-zs5a.onrender.com/songs/", songData);
       console.log("Song Uploaded:", res.data);
       
       // Show success message

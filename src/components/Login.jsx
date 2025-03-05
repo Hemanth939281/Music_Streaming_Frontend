@@ -23,7 +23,7 @@ const Login = () => {
         setError(null);
       
         try {
-            const res = await axios.post("http://localhost:5000/users/login", {
+            const res = await axios.post("https://music-streaming-backend-zs5a.onrender.com/users/login", {
                 email: emailRef.current.value,
                 password: passwordRef.current.value,
             });
