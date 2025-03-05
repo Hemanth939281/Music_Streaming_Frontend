@@ -29,7 +29,7 @@ const App = () => {
 
   return (
     <>
-      <div>
+      <div className="overflow-hidden">
         <Toaster position='top-center'/>
         <header className="w-full bg-gray-800 p-4 flex justify-between items-center sticky top-0 z-50">
       <Link to="/">
